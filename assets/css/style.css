@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Signika+Negative:wght@300&display=swap');
+
+body {
+    text-align: center;
+    background-color: gray;
+    color: black;
+    font-family: 'Signika Negative';
+    margin: 30px 0px;
+
+}
+
+header nav menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px;
+    align-items: center;
+}
+
+header nav menu menu {
+    display: none;
+}
+
+nav menu menu {
+    display: none;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+nav menu li {
+    list-style: none;
+    margin-right: 65px;
+}
+
+header nav menu li:hover button + menu {
+    display: block;
+    position: absolute;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+header nav {
+    padding: 30px;
+}
+
+button, .button-primary {
+    border: none;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 100;
+    font-size: 1.4rem;
+    padding: 14px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+}
+
+#slogan {
+    font-family: 'Caveat';
+}
+
+#buildpc button {
+    font-family: 'Signika Negative';
+    color: white;
+    
+}
