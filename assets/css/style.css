@@ -56,7 +56,9 @@ body {
   
   .dropdown:hover .dropdown-content {display: block;}
 
-
+nav {
+  background-color: rgb(105, 16, 16);
+}
 
 header nav {
     display: flex;
