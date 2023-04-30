@@ -3,7 +3,8 @@
 
 body {
     text-align: center;
-    background-color: black;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 63%, rgba(121,9,9,1) 100%);
     color: white;
     font-family: 'Signika Negative';
     margin: 30px 0px;
@@ -57,7 +58,8 @@ body {
   .dropdown:hover .dropdown-content {display: block;}
 
 nav {
-  background-color: rgb(105, 16, 16);
+  background-color: rgba(105, 16, 16, .2);
+
 }
 
 header nav {
