@@ -42,6 +42,19 @@ body {
     text-decoration: none;
 }
 
+a {
+  color:white;
+  border: none;
+  font-family: 'Caveat';
+  font-weight: 100;
+  font-size: 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+}
+
 .dropbtn {
     background-color: #b30d0d;
     color: white;
@@ -116,26 +129,14 @@ button, .button-primary {
 
 img {
   padding: 70px;
-  width: 700px;
+  width: 500px;
   height: 500px;
   object-fit: contain;
 }
 
 .imageswithlinks {
-  display: flex;
-  align-items: center;
+  flex-direction: row;
+  gap: 50px;
+  align-content: center;
 }
 
-.ryzen {
-  padding: 70px;
-  width: 100px;
-  height: 100px;
-  object-fit: contain;
-}
-
-.overwatchpc {
-  padding: 70px;
-  width: 100px;
-  height: 100px;
-  object-fit: contain;
-}
