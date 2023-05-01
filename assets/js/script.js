@@ -6,3 +6,5 @@ function myFunction() {
       x.className = "topnav";
     }
   }
+
+const toTop = () => window.scrollTo({top: 0, behavior: 'smooth'});

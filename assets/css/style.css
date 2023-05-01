@@ -3,21 +3,43 @@
 
 body {
     text-align: center;
-    background: rgb(0,0,0);
-    background: radial-gradient(circle, rgba(0,0,0,1) 63%, rgba(121,9,9,1) 100%);
+    background-image: url(https://technomotion.ca/wp-content/uploads/2019/05/Data-Technology-Background-Ab-258428140.jpg);
+    background-size: 2560px 1440px;
     color: white;
     font-family: 'Signika Negative';
-    margin: 30px 0px;
+    margin: 5px 0px;
 }
 
-.buildpc {
+.buildyourown a {
     background-color: #b30d0d;
-    color:white
+    color:white;
+    border: none;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    padding: 14px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    border-radius: 12px;
+    text-decoration: none;
 }
 
-.aboutus {
+.aboutus a {
     background-color: #b30d0d;
-    color:white
+    color:white;
+    border: none;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    padding: 14px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    border-radius: 12px;
+    text-decoration: none;
 }
 
 .dropbtn {
@@ -26,6 +48,7 @@ body {
     padding: 16px;
     font-size: 16px;
     border: none;
+    border-radius: 12px;
   }
   
   
@@ -42,6 +65,7 @@ body {
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    border-radius: 12px;
   }
   
 
@@ -58,8 +82,7 @@ body {
   .dropdown:hover .dropdown-content {display: block;}
 
 nav {
-  background-color: rgba(105, 16, 16, .2);
-
+  background-color: rgba(255, 255, 255, 0.021);
 }
 
 header nav {
@@ -87,6 +110,32 @@ button, .button-primary {
 }
 
 #slogan {
+  padding: 20px;
     font-family: 'Caveat';
 }
 
+img {
+  padding: 70px;
+  width: 700px;
+  height: 500px;
+  object-fit: contain;
+}
+
+.imageswithlinks {
+  display: flex;
+  align-items: center;
+}
+
+.ryzen {
+  padding: 70px;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.overwatchpc {
+  padding: 70px;
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
