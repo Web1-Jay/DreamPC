@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Signika+Negative:wght@300&display=swap');
+
+body {
+    text-align: center;
+    background-image: url(https://technomotion.ca/wp-content/uploads/2019/05/Data-Technology-Background-Ab-258428140.jpg);
+    background-size: 2560px 1440px;
+    background-size: cover;
+    color: white;
+    font-family: 'Signika Negative';
+}
+
+.buildyourown a {
+    background-color: #b30d0d;
+    color:white;
+    border: none;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    padding: 14px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+.aboutus a {
+    background-color: #b30d0d;
+    color:white;
+    border: none;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    padding: 14px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+a {
+  color:white;
+  border: none;
+  font-family: 'Caveat';
+  font-weight: 100;
+  font-size: 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+}
+
+.dropbtn {
+    background-color: #b30d0d;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 12px;
+  }
+  
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 12px;
+  }
+  
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+
+nav {
+  background-color: rgba(255, 255, 255, 0.021);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+header nav {
+    padding: 30px;
+}
+
+button, .button-primary {
+    border: none;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 100;
+    font-size: 1.4rem;
+    padding: 14px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+}
+
+#slogan {
+  padding: 20px;
+    font-family: 'Caveat';
+}
+
+body {
+    font-family: 'Signika Negative', sans-serif;
+}

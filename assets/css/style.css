@@ -5,9 +5,9 @@ body {
     text-align: center;
     background-image: url(https://technomotion.ca/wp-content/uploads/2019/05/Data-Technology-Background-Ab-258428140.jpg);
     background-size: 2560px 1440px;
+    background-size: cover;
     color: white;
     font-family: 'Signika Negative';
-    margin: 5px 0px;
 }
 
 .buildyourown a {
@@ -42,12 +42,34 @@ body {
     text-decoration: none;
 }
 
-a {
+footer nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.backtotop {
+  font-family: 'Signika Negative';
+  font-size: 75px;
+  align-items: center;
+  color: white;
+  margin: auto;
+  margin-top: 40px;
+  background-color: transparent;
+  border-width: 0;
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  padding: 0;
+}
+
+#homepage {
   color:white;
   border: none;
   font-family: 'Caveat';
   font-weight: 100;
-  font-size: 25px;
+  font-size: 38px;
   border-radius: 5px;
   text-decoration: none;
   cursor: pointer;
@@ -99,9 +121,11 @@ nav {
 }
 
 header nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  background-image: url(../images/peakpx.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 
 }
 
@@ -127,36 +151,72 @@ button, .button-primary {
     font-family: 'Caveat';
 }
 
-img {
-  padding: 70px;
-  width: 600px;
-  height: 600px;
-  object-fit: contain;
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.imageswithlinks {
-  background-color: rgba(255, 255, 255, 0.007);
-  flex-direction: row;
-  gap: 50px;
+#processor {
+  background-image: url(../images/amd-ryzen-cpu.png);
+  background-size: cover;
+  width: 400px;
+  height: 400px;
   align-content: center;
+  position: relative;
 }
 
-.viewourtrustedbrands {
+#processor button {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  background-color: #b30d0d;
   color:white;
   border: none;
-  font-family: 'Caveat';
+  font-family: 'Signika Negative', sans-serif;
   font-weight: 100;
-  font-size: 25px;
+  font-size: 16px;
+  padding: 14px;
   border-radius: 5px;
   text-decoration: none;
   cursor: pointer;
   display: block;
+  border-radius: 12px;
   text-decoration: none;
-
 }
 
+#custompc {
+  background-image: url(../images/overwatch6.jpg);
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  align-content: center;
+  position: relative;
+}
+
+#custompc button {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  background-color: #b30d0d;
+  color:white;
+  border: none;
+  font-family: 'Signika Negative', sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  padding: 14px;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+
 .dropbtn {
-  background-color: #3498DB;
+  background-color: #b30d0d;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -164,18 +224,15 @@ img {
   cursor: pointer;
 }
 
-/* Dropdown button on hover & focus */
 .dropbtn:hover, .dropbtn:focus {
-  background-color: #2980B9;
+  background-color: #7b0c0c;
 }
 
-/* The container <div> - needed to position the dropdown content */
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -185,7 +242,6 @@ img {
   z-index: 1;
 }
 
-/* Links inside the dropdown */
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -193,8 +249,6 @@ img {
   display: block;
 }
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: #c8c8c8;}
 
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}

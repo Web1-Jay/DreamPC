@@ -5,9 +5,9 @@ body {
     text-align: center;
     background-image: url(https://technomotion.ca/wp-content/uploads/2019/05/Data-Technology-Background-Ab-258428140.jpg);
     background-size: 2560px 1440px;
+    background-size: cover;
     color: white;
     font-family: 'Signika Negative';
-    margin: 5px 0px;
 }
 
 .buildyourown a {
@@ -47,7 +47,7 @@ a {
   border: none;
   font-family: 'Caveat';
   font-weight: 100;
-  font-size: 25px;
+  font-size: 38px;
   border-radius: 5px;
   text-decoration: none;
   cursor: pointer;
@@ -134,7 +134,7 @@ body {
     font-family: 'Caveat';
     font-size: 50px;
     border-bottom: #ffffff;
-    padding: 70px;
+    padding: 50px;
 }
 
 .faq-container {
@@ -150,7 +150,7 @@ body {
 }
 
 .faq-page {
-    color: #444;
+    color: rgb(255, 255, 255);
     cursor: pointer;
     padding: 30px 20px;
     width: 60%;
@@ -182,7 +182,7 @@ body {
     content: '\292B';
     font-family: 'Signika Negative', sans-serif;
     font-size: 25px;
-    color: #777;
+    color: rgb(255, 255, 255);
     float: right;
     margin-left: 5px;
 }
@@ -190,5 +190,29 @@ body {
 .active:after {
     content: "\2796";
     font-size: 15px;
+
+}
+
+footer nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.backtotop {
+  font-family: 'Signika Negative';
+  font-size: 75px;
+  align-items: center;
+  color: white;
+  margin: auto;
+  margin-top: 40px;
+  background-color: transparent;
+  border-width: 0;
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  padding: 0;
+  margin-top: 100px;
 
 }
