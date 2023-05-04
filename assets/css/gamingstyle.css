@@ -42,7 +42,7 @@ body {
     text-decoration: none;
 }
 
-a {
+#homenav a {
   color:white;
   border: none;
   font-family: 'Caveat';
@@ -99,12 +99,14 @@ nav {
 }
 
 header nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  background: linear-gradient(to bottom, transparent, rgb(0, 0, 0)),
+  url(../images/peakpx.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 
 }
-
 
 header nav {
     padding: 30px;
@@ -129,91 +131,4 @@ button, .button-primary {
 
 body {
     font-family: 'Signika Negative', sans-serif;
-}
-.faq-heading {
-    font-family: 'Caveat';
-    font-size: 50px;
-    border-bottom: #ffffff;
-    padding: 50px;
-}
-
-.faq-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.hr-line {
-  width: 60%;
-  margin: auto;
-  
-}
-
-.faq-page {
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-    padding: 30px 20px;
-    width: 60%;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-    margin: auto;
-}
-
-.faq-body{
-    margin: auto;
-   width: 50%; 
-   padding: auto;
-   
-}
-
-.active,
-.faq-page:hover {
-    background-color: #ffffff04;
-}
-
-.faq-body {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-}
-
-.faq-page:after {
-    content: '\292B';
-    font-family: 'Signika Negative', sans-serif;
-    font-size: 25px;
-    color: rgb(255, 255, 255);
-    float: right;
-    margin-left: 5px;
-}
-
-.active:after {
-    content: "\2796";
-    font-size: 15px;
-
-}
-
-footer nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 100px;
-}
-
-.backtotop {
-  font-family: 'Signika Negative';
-  font-size: 75px;
-  align-items: center;
-  color: white;
-  margin: auto;
-  margin-top: 40px;
-  background-color: transparent;
-  border-width: 0;
-  font-family: inherit;
-  font-style: inherit;
-  font-weight: inherit;
-  line-height: inherit;
-  padding: 0;
-  margin-top: 100px;
-
 }

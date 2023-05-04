@@ -121,7 +121,8 @@ nav {
 }
 
 header nav {
-  background-image: url(../images/peakpx.jpg);
+  background: linear-gradient(to bottom, transparent, rgb(0, 0, 0)),
+  url(../images/peakpx.jpg);
   background-size: cover;
   display: flex;
   justify-content: space-around;

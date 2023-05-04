@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Signika+Negative:wght@300&display=swap');
+
+body {
+  text-align: center;
+  background-image: url(https://technomotion.ca/wp-content/uploads/2019/05/Data-Technology-Background-Ab-258428140.jpg);
+  background-size: 2560px 1440px;
+  background-size: cover;
+  color: white;
+  font-family: 'Signika Negative';
+}
+
+.buildyourown a {
+  background-color: #b30d0d;
+  color:white;
+  border: none;
+  font-family: 'Signika Negative', sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  padding: 14px;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+.aboutus a {
+  background-color: #b30d0d;
+  color:white;
+  border: none;
+  font-family: 'Signika Negative', sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  padding: 14px;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+#homenav a {
+  color:white;
+  border: none;
+  font-family: 'Caveat';
+  font-weight: 100;
+  font-size: 38px;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+}
+
+.dropbtn {
+  background-color: #b30d0d;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  }
+  
+  
+  .dropdown {
+  position: relative;
+  display: inline-block;
+  }
+  
+
+  .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 12px;
+  }
+  
+
+  .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  }
+  
+
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+
+nav {
+  background-color: rgba(255, 255, 255, 0.021);
+}
+
+header nav {
+  background: linear-gradient(to bottom, transparent, rgb(0, 0, 0)),
+  url(../images/peakpx.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+
+header nav {
+  padding: 30px;
+}
+
+button, .button-primary {
+  border: none;
+  font-family: 'Signika Negative', sans-serif;
+  font-weight: 100;
+  font-size: 1.4rem;
+  padding: 14px;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+}
+
+#slogan {
+  padding: 20px;
+  font-family: 'Caveat';
+}
+
+body {
+  font-family: 'Signika Negative', sans-serif;
+}
+.faq-heading {
+  font-family: 'Caveat';
+  font-size: 55px;
+  border-bottom: #ffffff;
+  padding: 50px;
+}
+
+.faq-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hr-line {
+  width: 60%;
+  margin: auto;
+}
+
+.faq-page {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  cursor: pointer;
+  padding: 30px 20px;
+  width: 60%;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: auto;
+}
+
+.faq-body{
+  margin: auto;
+  width: 50%; 
+  padding: auto;
+   
+}
+
+.active,
+.faq-page:hover {
+  background-color: #ffffff04;
+}
+
+.faq-body {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  font-size: 22px;
+  font-family: 'Signika Negative';
+}
+
+.faq-page:after {
+  content: '\292B';
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796";
+  font-size: 25px;
+
+}
+
+footer nav {
+  font-family: 'Caveat';
+  font-size: 45px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.customerReviews a {
+  color:white;
+  border: none;
+  font-family: 'Caveat';
+  font-weight: 100;
+  font-size: 38px;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+}
+
+.contactus a {
+  color:white;
+  border: none;
+  font-family: 'Caveat';
+  font-weight: 100;
+  font-size: 38px;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+}
+
+.ourstory a {
+  color:white;
+  border: none;
+  font-family: 'Caveat';
+  font-weight: 100;
+  font-size: 38px;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+}
+
+.faqfooter a {
+  color:white;
+  border: none;
+  font-family: 'Caveat';
+  font-weight: 100;
+  font-size: 38px;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+}
+
+.brandsweuse a {
+  color:white;
+  border: none;
+  font-family: 'Caveat';
+  font-weight: 100;
+  font-size: 38px;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+}
+
+.backtotop {
+  font-family: 'Signika Negative';
+  font-size: 75px;
+  align-items: center;
+  color: white;
+  margin: auto;
+  margin-top: 40px;
+  background-color: transparent;
+  border-width: 0;
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  padding: 0;
+  margin-top: 100px;
+
+}
