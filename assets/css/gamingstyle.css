@@ -130,6 +130,10 @@ body {
   background-image: #818181;
 }
 
+.totalcost3 {
+  margin-top: 50px;
+}
+
 .tier1image {
   display: flex;
   flex-direction: row;
