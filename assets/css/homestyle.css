@@ -42,6 +42,21 @@ body {
     text-decoration: none;
 }
 
+.featured button {
+  font-family: 'Caveat';
+  align-items: center;
+  color: white;
+  margin: auto;
+  margin-top: 40px;
+  background-color: transparent;
+  border-width: 0;
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  padding: 0;
+}
+
 footer nav {
   display: flex;
   justify-content: space-around;
@@ -161,6 +176,7 @@ button, .button-primary {
 .divider {
   width: 60%;
   margin-top: 150px;
+  margin-bottom: 125px;
 }
 
 main {
@@ -168,6 +184,22 @@ main {
   justify-content: flex-start;
   justify-content: center;
   justify-content: space-around;
+}
+
+.usercontainer button {
+  font-family: 'Caveat';
+  color: white;
+  background-color: transparent;
+  font-size: 30px;
+}
+
+
+.usercontainer {
+  display: flex;
+  justify-content: flex-start;
+  justify-content: center;
+  justify-content: space-around;
+  margin-right: 50px
 }
 
 #processor {
