@@ -128,8 +128,14 @@ header nav {
 
 .money {
   display: flex;
-  flex-direction: row;
-  display: inline-block;
+  justify-content: center;
+}
+
+.money button {
+  font-family: 'Signika Negative';
+  background-color: #b30d0d;
+  border-radius: 50%;
+  margin-left: 20px;
 }
 
 
