@@ -6,6 +6,10 @@ body {
     background-image: url(https://technomotion.ca/wp-content/uploads/2019/05/Data-Technology-Background-Ab-258428140.jpg);
     background-size: 2560px 1440px;
     background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
     color: white;
     font-family: 'Signika Negative';
 }
@@ -98,6 +102,14 @@ nav {
   background-color: rgba(255, 255, 255, 0.021);
 }
 
+nav a {
+  -webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+}
+
 header nav {
   background: linear-gradient(to bottom, transparent, rgb(0, 0, 0)),
   url(../images/peakpx.jpg);
@@ -108,8 +120,81 @@ header nav {
 
 }
 
+#slogan {
+  padding: 20px;
+  font-family: 'Caveat';
+  font-size: 40px;
+}
+
+body {
+  background-image: #818181;
+}
+
+.tier1image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 40%;
+}
+
+.tabdesc1 {
+  display: flex;
+  margin-left: 35%;
+  font-family: 'Signika Negative' ;
+  font-size: 20px;
+}
+
+.tabdesc2 {
+  display: flex;
+  margin-left: 35%;
+  font-family: 'Signika Negative' ;
+  font-size: 20px;
+}
+
+.tabdesc3 {
+  display: flex;
+  margin-left: 35%;
+  font-family: 'Signika Negative' ;
+  font-size: 20px;
+}
+
+.tabs {
+  overflow: hidden;
+  background-color: transparent;
+  font-family: 'Signika Negative';
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tabs button {
+  background-color: #b30d0d;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.tabs button:hover {
+  background-color: #b30d0da8;
+}
+
+.tabs button.active {
+  background-color: #b30d0d80;
+}
+
+.tabcontent {
+  display: none;
+  font-family: 'Signika Negative';
+}
+
 header nav {
     padding: 30px;
+}
+
+.bottomline {
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 1000px;
 }
 
 button, .button-primary {
@@ -131,4 +216,95 @@ button, .button-primary {
 
 body {
     font-family: 'Signika Negative', sans-serif;
+}
+
+footer nav {
+  font-family: 'Caveat';
+  font-size: 45px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.customerReviews a {
+  color:white;
+  border: none;
+  font-family: 'Caveat';
+  font-weight: 100;
+  font-size: 38px;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  text-decoration: underline;
+}
+
+.contactus a {
+  color:white;
+  border: none;
+  font-family: 'Caveat';
+  font-weight: 100;
+  font-size: 38px;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  text-decoration: underline;
+}
+
+.ourstory a {
+  color:white;
+  border: none;
+  font-family: 'Caveat';
+  font-weight: 100;
+  font-size: 38px;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  text-decoration: underline;
+}
+
+.faqfooter a {
+  color:white;
+  border: none;
+  font-family: 'Caveat';
+  font-weight: 100;
+  font-size: 38px;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  text-decoration: underline;
+}
+
+.brandsweuse a {
+  color:white;
+  border: none;
+  font-family: 'Caveat';
+  font-weight: 100;
+  font-size: 38px;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  text-decoration: underline;
+}
+
+.backtotop {
+  font-family: 'Signika Negative';
+  font-size: 75px;
+  align-items: center;
+  color: white;
+  margin: auto;
+  margin-top: 40px;
+  background-color: transparent;
+  border-width: 0;
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  padding: 0;
+  margin-top: 100px;
 }

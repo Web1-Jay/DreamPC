@@ -6,6 +6,10 @@ body {
     background-image: url(https://technomotion.ca/wp-content/uploads/2019/05/Data-Technology-Background-Ab-258428140.jpg);
     background-size: 2560px 1440px;
     background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
     color: white;
     font-family: 'Signika Negative';
 }
@@ -58,11 +62,80 @@ body {
 }
 
 footer nav {
+  font-family: 'Caveat';
+  font-size: 45px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 1000px;
+  margin-top: 100px;
 }
+
+.contactus a {
+  color:white;
+  border: none;
+  font-family: 'Caveat';
+  font-weight: 100;
+  font-size: 38px;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  text-decoration: underline;
+}
+
+.customerReviews a {
+  color:white;
+  border: none;
+  font-family: 'Caveat';
+  font-weight: 100;
+  font-size: 38px;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  text-decoration: underline;
+}
+
+.ourstory a {
+  color:white;
+  border: none;
+  font-family: 'Caveat';
+  font-weight: 100;
+  font-size: 38px;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  text-decoration: underline;
+}
+
+.faqfooter a {
+  color:white;
+  border: none;
+  font-family: 'Caveat';
+  font-weight: 100;
+  font-size: 38px;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  text-decoration: underline;
+}
+
+.brandsweuse a {
+  color:white;
+  border: none;
+  font-family: 'Caveat';
+  font-weight: 100;
+  font-size: 38px;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  text-decoration: underline;
+}
+
+
 
 .backtotop {
   font-family: 'Signika Negative';
@@ -91,6 +164,14 @@ footer nav {
   cursor: pointer;
   display: block;
   text-decoration: none;
+}
+
+nav a {
+  -webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
 }
 
 .dropbtn {
@@ -165,7 +246,8 @@ button, .button-primary {
 
 #slogan {
   padding: 20px;
-    font-family: 'Caveat';
+  font-family: 'Caveat';
+  font-size: 40px;
 }
 
 .hr-line {
@@ -179,6 +261,12 @@ button, .button-primary {
   margin-bottom: 125px;
 }
 
+.bottomline {
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 1000px;
+}
+
 main {
   display: flex;
   justify-content: flex-start;
@@ -190,7 +278,8 @@ main {
   font-family: 'Caveat';
   color: white;
   background-color: transparent;
-  font-size: 30px;
+  font-size: 32px;
+  text-decoration: underline;
 }
 
 
@@ -199,7 +288,30 @@ main {
   justify-content: flex-start;
   justify-content: center;
   justify-content: space-around;
-  margin-right: 50px
+  margin-right: 60px
+}
+
+.usercontainer button:hover {
+  cursor: pointer;
+}
+
+.usercontainer:hover {
+  cursor: pointer;
+}
+
+.usercontainerimages {
+  display: flex;
+  justify-content: space-around;
+}
+
+.usercontainerimages:hover {
+  cursor: pointer;
+}
+
+.usercontainerpfp {
+  display: flex;
+  justify-content: space-around;
+  
 }
 
 #processor {
