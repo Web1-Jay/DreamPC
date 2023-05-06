@@ -4,14 +4,18 @@
 body {
     text-align: center;
     background-image: url(https://technomotion.ca/wp-content/uploads/2019/05/Data-Technology-Background-Ab-258428140.jpg);
-    background-size: 2560px 1440px;
     background-size: cover;
-    background-size: 100%;
     background-repeat: no-repeat;
+    background-position: center center;
     background-attachment: fixed;
     background-position: center top;
     color: white;
     font-family: 'Signika Negative';
+}
+
+.resize {
+  max-width: 100%;
+  height: auto;
 }
 
 .buildyourown a {
@@ -299,20 +303,26 @@ main {
   cursor: pointer;
 }
 
+@media screen and (max-device-width: 480px) and (orientation: portrait){
+
 .usercontainerimages {
   display: flex;
   justify-content: space-around;
+}
 }
 
 .usercontainerimages:hover {
   cursor: pointer;
 }
 
+
+
 .usercontainerpfp {
   display: flex;
   justify-content: space-around;
   
 }
+
 
 #processor {
   background-image: url(../images/amd-ryzen-cpu.png);
@@ -321,6 +331,7 @@ main {
   height: 400px;
   align-content: center;
   position: relative;
+
 }
 
 #processor button {

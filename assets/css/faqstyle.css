@@ -1,17 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Signika+Negative:wght@300&display=swap');
 
-body {
+html {
   text-align: center;
   background-image: url(https://technomotion.ca/wp-content/uploads/2019/05/Data-Technology-Background-Ab-258428140.jpg);
-  background-size: 2560px 1440px;
   background-size: cover;
-  background-size: 100%;
   background-repeat: no-repeat;
+  background-position: center center;
   background-attachment: fixed;
-  background-position: center top;
   color: white;
   font-family: 'Signika Negative';
+  min-height: 100%;
 }
 
 .buildyourown a {
@@ -306,3 +305,4 @@ footer nav {
   padding: 0;
   margin-top: 100px;
 }
+
